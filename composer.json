@@ -1,0 +1,17 @@
+{
+  "name": "oetkerdigitial/belvini-module-default-attribute",
+  "description": "Include the default attributes for belvini",
+  "require": {
+    "php": "~7.1.0",
+    "magento/product-community-edition": "~2.3.1"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Belvini\\ProductAttributes": ""
+    }
+  }
+}

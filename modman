@@ -1,0 +1,7 @@
+etc/                app/code/Belvini/ProductAttributes/etc
+Model/              app/code/Belvini/ProductAttributes/Model
+Setup/              app/code/Belvini/ProductAttributes/Setup
+Test/               app/code/Belvini/ProductAttributes/Test
+composer.json       app/code/Belvini/ProductAttributes/composer.json
+registration.php    app/code/Belvini/ProductAttributes/registration.php
+README.md           app/code/Belvini/ProductAttributes/README.md
