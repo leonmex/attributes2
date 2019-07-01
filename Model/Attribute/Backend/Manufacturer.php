@@ -11,9 +11,9 @@ class Manufacturer extends \Magento\Eav\Model\Entity\Attribute\Backend\AbstractB
 
     /**
      * Init
-     * @param \Belvini\ProductAttributes\Model\Attribute\Manufacturer $productTypeList
+     * @param \Belvini\ProductAttributes\Model\Attribute\Source\Manufacturer $manufacturersList
      */
-    public function __construct(\Belvini\ProductAttributes\Model\Attribute\Manufacturer $manufacturersList)
+    public function __construct(\Belvini\ProductAttributes\Model\Attribute\Source\Manufacturer $manufacturersList)
     {
         $this->manufacturersList = $manufacturersList;
     }

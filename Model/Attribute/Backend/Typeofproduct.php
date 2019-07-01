@@ -11,9 +11,9 @@ class Typeofproduct extends \Magento\Eav\Model\Entity\Attribute\Backend\Abstract
 
     /**
      * Init
-     * @param \Belvini\ProductAttributes\Model\Attribute\Typeofproduct $productTypeList
+     * @param \Belvini\ProductAttributes\Model\Attribute\Source\Typeofproduct $productTypeList
      */
-    public function __construct(\Belvini\ProductAttributes\Model\Attribute\Typeofproduct $productTypeList)
+    public function __construct(\Belvini\ProductAttributes\Model\Attribute\Source\Typeofproduct $productTypeList)
     {
         $this->productTypeList = $productTypeList;
     }

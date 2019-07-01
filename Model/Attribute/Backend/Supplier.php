@@ -11,11 +11,11 @@ class Supplier extends \Magento\Eav\Model\Entity\Attribute\Backend\AbstractBacke
 
     /**
      * Init
-     * @param \Belvini\ProductAttributes\Model\Attribute\Supplier $Supplier
+     * @param \Belvini\ProductAttributes\Model\Attribute\Source\Supplier $Supplier
      */
-    public function __construct(\Belvini\ProductAttributes\Model\Attribute\Supplier $SupplierList)
+    public function __construct(\Belvini\ProductAttributes\Model\Attribute\Source\Supplier $supplierList)
     {
-        $this->supplierList = $SupplierList;
+        $this->supplierList = $supplierList;
     }
 
     /**

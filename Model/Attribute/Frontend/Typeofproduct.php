@@ -24,9 +24,9 @@ class Typeofproduct extends \Magento\Eav\Model\Entity\Attribute\Frontend\Abstrac
 
         $productTypeLabel = '';
 
-        foreach ($this->productTypeList->getAllTypeOfProducts as $key => $typeOfProduc) {
+        foreach ($this->productTypeList->getAllTypeOfProducts as $key => $typeOfProduct) {
             if ($value == $key) {
-                $productTypeLabel = $typeOfProduc;
+                $productTypeLabel = $typeOfProduct;
             }
         }
 
