@@ -1,6 +1,6 @@
 {
-  "name": "oetkerdigitial/belvini-module-default-attribute",
-  "description": "Include the default attributes for belvini",
+  "name": "oetkerdigitial",
+  "description": "Include the default attributes for belvini 2",
   "require": {
     "php": "~7.1.0",
     "magento/product-community-edition": "~2.3.1"
