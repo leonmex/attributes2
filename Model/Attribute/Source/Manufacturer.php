@@ -11,9 +11,9 @@ class Manufacturer extends \Magento\Eav\Model\Entity\Attribute\Source\AbstractSo
     public function getAllOptions()
     {
         if (!$this->_options) {
-            $typeofmanufacturers = $this->getAllManufacturers();
+            $typeOfManufacturers = $this->getAllManufacturers();
             $options = [];
-            foreach ($typeofmanufacturers as $key=>$value) {
+            foreach ($typeOfManufacturers as $key=>$value) {
                 $options[] = [
                     'label' => $value,
                     'value' => $key

@@ -37,7 +37,7 @@ class Supplier extends \Magento\Eav\Model\Entity\Attribute\Backend\AbstractBacke
     }
 
     /**
-     * Check exist of the Supplier code
+     * Check if the Supplier code exist
      * @return bool
      */
     public function checkAttributeValue($supplierCode)

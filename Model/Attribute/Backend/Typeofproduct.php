@@ -37,7 +37,7 @@ class Typeofproduct extends \Magento\Eav\Model\Entity\Attribute\Backend\Abstract
     }
 
     /**
-     * Check exist of the product type code
+     * Check if the TypeOfProducts code exist
      * @return bool
      */
     public function checkAttributeValue($productTypeCode)

@@ -37,7 +37,7 @@ class Manufacturer extends \Magento\Eav\Model\Entity\Attribute\Backend\AbstractB
     }
 
     /**
-     * Check exist of the Manufacturer code
+     * Check if the Manufacturer code exist
      * @return bool
      */
     public function checkAttributeValue($manufacturerCode)
